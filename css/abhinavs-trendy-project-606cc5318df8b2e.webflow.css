@@ -3991,6 +3991,9 @@ html.w-mod-js *[data-ix="initial-avatar-content"] {
     margin-bottom: 0px;
     border-style: none;
   }
+  .separator {
+    margin-bottom: 40px;
+  }
   .isometric-goy.mobile {
     -webkit-transform: translate(0px, 530px) scale(2.3);
     -ms-transform: translate(0px, 530px) scale(2.3);
@@ -4058,7 +4061,7 @@ html.w-mod-js *[data-ix="initial-avatar-content"] {
     display: inline-block;
     width: auto;
     height: 40%;
-    margin: 229px auto auto 198px;
+    margin: 151px auto auto 198px;
     text-align: center;
   }
   .quote-div-block {
@@ -4185,6 +4188,7 @@ html.w-mod-js *[data-ix="initial-avatar-content"] {
     color: #fff;
   }
   .heading-16 {
+    margin-bottom: 20px;
     color: #fff;
   }
 }
@@ -4463,7 +4467,8 @@ html.w-mod-js *[data-ix="initial-avatar-content"] {
     text-align: center;
   }
   .about-container.mobile {
-    margin-top: 0px;
+    margin-top: -39px;
+    margin-bottom: 0px;
   }
   .image-column {
     height: auto;
@@ -4601,6 +4606,18 @@ html.w-mod-js *[data-ix="initial-avatar-content"] {
   }
   .text-block-copy.caption {
     font-size: 12px;
+  }
+  .text-span-2 {
+    color: #1accaf;
+  }
+  .text-span-3 {
+    color: #1accaf;
+  }
+  .text-span-4 {
+    color: #1accaf;
+  }
+  .text-span-5 {
+    color: #1accaf;
   }
 }
 
