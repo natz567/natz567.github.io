@@ -446,7 +446,7 @@ blockquote {
 .masthead-small {
   margin-top: 5px;
   margin-bottom: 0px;
-  margin-left: 45px;
+  margin-left: 46px;
   padding-bottom: 5px;
 }
 
@@ -3374,8 +3374,10 @@ html.w-mod-js *[data-ix="initial-avatar-content"] {
     right: 0px;
     z-index: 999;
     display: block;
-    border-bottom: 1px solid #d8d8d8;
-    background-color: hsla(0, 0%, 100%, .9);
+    border-style: none;
+    border-bottom-width: 1px;
+    border-bottom-color: #d8d8d8;
+    background-color: #1b1b1b;
   }
   .navbar.nav-scroll {
     height: 60px;
@@ -3442,6 +3444,7 @@ html.w-mod-js *[data-ix="initial-avatar-content"] {
     text-align: center;
   }
   .hero-section.full-page {
+    margin-top: 76px;
     background-image: url('../images/img-jimmy-lightning-alt1x.svg');
     background-position: 50% 25%;
     background-size: 40%;
@@ -3470,6 +3473,9 @@ html.w-mod-js *[data-ix="initial-avatar-content"] {
     -webkit-transform: translate(0px, -80px);
     -ms-transform: translate(0px, -80px);
     transform: translate(0px, -80px);
+  }
+  .masthead-small {
+    margin-left: 1px;
   }
   .link-block {
     height: 640px;
@@ -3650,7 +3656,7 @@ html.w-mod-js *[data-ix="initial-avatar-content"] {
     bottom: auto;
     display: inline-block;
     height: 40%;
-    margin-top: 10%;
+    margin-top: 0%;
   }
   .jimmynaut-figure-frame-2 {
     display: inline-block;
@@ -3731,6 +3737,7 @@ html.w-mod-js *[data-ix="initial-avatar-content"] {
   }
   .container-2 {
     overflow: visible;
+    color: #fff;
   }
   .column {
     position: static;
@@ -3738,6 +3745,15 @@ html.w-mod-js *[data-ix="initial-avatar-content"] {
   .cards {
     padding-right: 80px;
     padding-left: 80px;
+  }
+  .product-card-image.product-card-1 {
+    height: 500px;
+  }
+  .product-card-image.product-card-3 {
+    height: 500px;
+  }
+  .product-card-image.product-card-2 {
+    height: 500px;
   }
 }
 
@@ -3763,6 +3779,11 @@ html.w-mod-js *[data-ix="initial-avatar-content"] {
   .button.cta {
     border-color: rgba(50, 55, 66, 0);
     background-color: #323742;
+  }
+  .navbar {
+    border-style: none;
+    background-color: transparent;
+    opacity: 1;
   }
   .nav-link {
     display: inline-block;
@@ -3814,6 +3835,9 @@ html.w-mod-js *[data-ix="initial-avatar-content"] {
   }
   .fixednavbar {
     position: fixed;
+  }
+  .masthead-small {
+    margin-left: 1px;
   }
   .text-link.secondary-link {
     display: inline-block;
@@ -3948,7 +3972,6 @@ html.w-mod-js *[data-ix="initial-avatar-content"] {
     margin-bottom: auto;
     padding-top: 30px;
     padding-bottom: 30px;
-    background-color: hsla(0, 0%, 100%, .8);
     color: #fff;
   }
   .lead {
@@ -3963,6 +3986,10 @@ html.w-mod-js *[data-ix="initial-avatar-content"] {
     left: 0px;
     top: 85%;
     width: 160px;
+  }
+  .fixednav-trigger-div {
+    margin-bottom: 0px;
+    border-style: none;
   }
   .isometric-goy.mobile {
     -webkit-transform: translate(0px, 530px) scale(2.3);
@@ -3992,6 +4019,11 @@ html.w-mod-js *[data-ix="initial-avatar-content"] {
     display: inline-block;
     height: 27px;
     line-height: 20px;
+  }
+  .terrestrial-navbar {
+    padding-top: 0px;
+    border-style: none;
+    opacity: 1;
   }
   .jimmynaut-about {
     position: relative;
@@ -4130,6 +4162,12 @@ html.w-mod-js *[data-ix="initial-avatar-content"] {
     border-color: rgba(50, 55, 66, 0);
     background-color: #323742;
   }
+  .container-2 {
+    border-style: none;
+    background-color: #1b1b1b;
+    opacity: 1;
+    color: #fff;
+  }
   .text-block-copy {
     font-size: 16px;
   }
@@ -4139,6 +4177,15 @@ html.w-mod-js *[data-ix="initial-avatar-content"] {
   .text-block-copy.services {
     margin-bottom: 20px;
     text-align: center;
+  }
+  .heading-14 {
+    color: #fff;
+  }
+  .heading-15 {
+    color: #fff;
+  }
+  .heading-16 {
+    color: #fff;
   }
 }
 
@@ -4220,8 +4267,6 @@ html.w-mod-js *[data-ix="initial-avatar-content"] {
     height: auto;
     padding-top: 20px;
     padding-bottom: 20px;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(hsla(0, 0%, 95%, .8)), to(hsla(0, 0%, 100%, .8)));
-    background-image: linear-gradient(180deg, hsla(0, 0%, 95%, .8), hsla(0, 0%, 100%, .8));
   }
   .section.about {
     padding-top: 0px;
@@ -4238,6 +4283,9 @@ html.w-mod-js *[data-ix="initial-avatar-content"] {
   }
   .fixednavbar.others {
     display: block;
+  }
+  .masthead-small {
+    margin-left: 0px;
   }
   .link-block {
     height: 540px;
@@ -4332,6 +4380,7 @@ html.w-mod-js *[data-ix="initial-avatar-content"] {
   }
   .text-block.caption {
     font-size: 12px;
+    text-align: center;
   }
   .announcement-tile {
     padding-right: 20px;
@@ -4348,7 +4397,7 @@ html.w-mod-js *[data-ix="initial-avatar-content"] {
     margin-bottom: -95px;
     padding-top: 0px;
     padding-bottom: 20px;
-    background-color: hsla(0, 0%, 100%, .8);
+    background-color: #1b1b1b;
   }
   .lead {
     margin-top: 0px;
@@ -4426,8 +4475,8 @@ html.w-mod-js *[data-ix="initial-avatar-content"] {
     right: 0px;
     display: inline-block;
     width: auto;
-    height: 20%;
-    margin: 287px 0px 0px 111px;
+    height: 30%;
+    margin: 150px 0px 1px 111px;
   }
   .about-container-2.mobile {
     margin-top: 0px;
